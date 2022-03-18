@@ -1,0 +1,112 @@
+.contenedor{
+
+    display: grid;
+    height: 620px;
+    grid-template-columns: auto ;
+    grid-template-rows: 100px auto;    
+    gap: 5px;
+    background-color: rgba(4, 90, 124, 0.95);    
+    color: whitesmoke;
+    font-family: monospace;
+    margin-top: 20px;
+
+    
+
+}
+
+.contenedor > div {
+    
+    margin: 10px;
+    margin-top: 20px; 
+    margin-left: 40px;   
+    border-radius: 20px;
+}
+
+.titulo{
+    
+    font-size: 50px; 
+
+}
+
+
+.contenido{
+
+   display: grid;
+   grid-template-columns: auto auto auto;
+   gap: 5px;
+   justify-items: center;
+   margin-bottom: 5px;   
+
+}
+
+.contenido > div {
+
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+img{
+
+    height: 100px;
+
+}
+
+.javascript > img {
+    border-radius: 20px;
+}
+
+.javascript{
+
+    display: grid;
+    justify-items: center;
+
+}
+
+.html{
+
+    display: grid;
+    justify-items: center;
+    
+}
+
+.css{
+
+    display: grid;
+    justify-items: center;
+        
+}
+
+.typescript{
+
+    display: grid;
+    justify-items: center;    
+    
+}
+
+.bootstrap{
+    
+    display: grid;
+    justify-items: center;
+
+}
+
+.github{
+    
+    display: grid;
+    justify-items: center;
+
+}
+
+.angular{
+
+    display: grid;
+    justify-items: center;
+    
+}
+
+.node{
+
+    display: grid;
+    justify-items: center;
+    
+}

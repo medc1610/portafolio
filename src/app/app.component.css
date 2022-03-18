@@ -1,0 +1,120 @@
+.contenedor{
+
+    display: grid;
+    grid-template-columns: 300px auto;   
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.contenedor div{
+    
+    border-radius: 20px;
+    
+}
+
+
+.menu{
+
+   position: fixed;
+   margin: 10px;
+
+}
+
+.menur{
+    display: none;
+}
+
+
+
+#inicio{    
+    
+    height: 620px;    
+    grid-column: 2/3;
+
+}
+
+#sobre-mi{
+
+    height: 620px;  
+    grid-column: 2/3;
+
+}
+
+#habilidades{
+
+    height: 620px;  
+    grid-column: 2/3;
+
+}
+
+#proyectos{
+
+    height: 620px;  
+    grid-column: 2/3;
+
+}
+
+#contacto{
+
+    height: 620px;  
+    grid-column: 2/3;
+
+}
+
+
+@media(max-width: 1280px){
+
+    .menu{
+        display: none;
+    }
+
+    .menur{
+        display: block;
+        width: 100%;
+        position: fixed;
+        margin-bottom: 20px;
+    }
+
+    
+
+    .contenedor{
+
+        grid-template-columns: auto;
+        
+    justify-content: initial; 
+        
+    }
+
+    #inicio{    
+        
+        height: 620px;
+        grid-column: 1/3;
+    }
+
+    #sobre-mi{
+
+        height: 620px;   
+        grid-column: 1/3;
+    }
+
+    #habilidades{
+
+        height: 620px;    
+        grid-column: 1/3;
+    }
+
+    #proyectos{
+
+        height: 620px;     
+        grid-column: 1/3;
+    }
+
+    #contacto{
+
+        height: 620px;     
+        grid-column: 1/3;
+    }
+
+    
+}

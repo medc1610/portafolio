@@ -1,0 +1,62 @@
+.contenedor{
+
+    display: grid;
+    height: 360px;
+    grid-template-columns: auto;
+    grid-template-rows: 100px  auto;    
+    gap: 5px;
+    border-radius: 20px;
+    background-color: rgba(4, 90, 124, 0.95);    
+    color: whitesmoke;
+    font-family: monospace;
+    margin-top: 20px;  
+
+}
+
+.contenedor > div {
+    
+    margin: 10px;
+    margin-top: 20px; 
+    margin-left: 40px; 
+
+}
+
+.titulo{
+
+    grid-column: 1/4;
+    font-size: 50px; 
+
+}
+
+
+
+.contenido{
+
+    grid-column: 1/2;
+    font-size: 20px;
+
+}
+
+img{
+    height: 150px;
+}
+
+.linkedin{
+    display: grid;
+    justify-content: center;
+}
+
+.github{
+    display: grid;
+    justify-content: center;
+}
+
+.gmail{
+    display: grid;
+    justify-content: center;
+}
+
+
+
+
+
