@@ -46,14 +46,31 @@ img{
     justify-content: center;
 }
 
+.linkedin > a > img{
+    border-radius: 20px ;
+    border: rgb(255, 255, 255) solid 1px;
+}
+
 .github{
     display: grid;
     justify-content: center;
 }
 
+
+
+.github > a > img{
+    border-radius: 100px ;
+    border: rgb(255, 255, 255) solid 1px;
+}
+
 .gmail{
     display: grid;
     justify-content: center;
+}
+
+.gmail > img{
+    border: rgb(255, 255, 255) solid 1px;
+    border-radius: 20px;
 }
 
 

@@ -37,13 +37,14 @@
 
 }
 
-.imagen-card > img{
+.imagen-card > a > img{
 
     height: 190px;
     width: 255px;    
     border-radius: 10px;
 
 }
+
 
 .proyecto{
 
@@ -94,6 +95,13 @@
     align-items: center;
     justify-content: center;
     grid-column: 1/2;
+
+}
+
+.btn:hover{
+
+    background-color: aliceblue;
+    color: black;
 
 }
 
