@@ -9,9 +9,7 @@
     color: whitesmoke;
     font-family: monospace;
     margin-top: 20px;
-    border-radius: 20px;
-
-    
+    border-radius: 20px;    
 
 }
 
@@ -21,6 +19,7 @@
     margin-top: 20px; 
     margin-left: 40px;   
     border-radius: 20px;
+    
 }
 
 .titulo{
